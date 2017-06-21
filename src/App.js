@@ -20,7 +20,8 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>react-lottie demo</h2>
+          <p>using custom lottie file from <a href="https://www.lottiefiles.com">here</a></p>
         </div>
         <Lottie options={defaultOptions}
               height={400}
