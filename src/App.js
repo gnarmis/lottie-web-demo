@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Lottie from 'react-lottie';
 import * as animationData from "./favorite.json";
@@ -19,8 +18,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>react-lottie demo</h2>
+          <h3><a href="https://github.com/gnarmis/lottie-web-demo">react-lottie demo</a></h3>
           <p>using custom lottie file from <a href="https://www.lottiefiles.com">here</a></p>
         </div>
         <Lottie options={defaultOptions}
